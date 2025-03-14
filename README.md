@@ -1,14 +1,14 @@
 # Antipatterns calculator
-- **Interface Soup**
+- **Interface Soup**  
 Интерфейс с кучей несвязанных методов, нарушающий ISP.
 
-- **God Object**
+- **God Object**  
 Класс Calculator делает всё: вычисления, ввод-вывод, работу с файлами.
 
-- **Magic Number**
+- **Magic Number**  
 Константа E без пояснений.
 
-- **Boat Anchor**
+- **Boat Anchor**  
 Неиспользуемый метод readFromFile, оставленный "на будущее".
 
 - **Cryptic Code**
