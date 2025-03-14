@@ -2,41 +2,41 @@
 - **Interface Soup**  
 Интерфейс с кучей несвязанных методов, нарушающий ISP.
 
-- **God Object**  
+1. **God Object**  
 Класс Calculator делает всё: вычисления, ввод-вывод, работу с файлами.
 
-- **Magic Number**  
+2. **Magic Number**  
 Константа E без пояснений.
 
-- **Boat Anchor**  
+3. **Boat Anchor**  
 Неиспользуемый метод readFromFile, оставленный "на будущее".
 
-- **Cryptic Code**
+4. **Cryptic Code**  
 Непонятные имена вроде o, l, u, fn.
 
-- **Spaghetti Code**
+5. **Spaghetti Code**  
 Огромный switch для всех операций.
 
-- **Reinventing the Wheel**
+6. **Reinventing the Wheel**  
 Свой метод корня вместо Math.sqrt().
 
-- **Blind Faith**
+7. **Blind Faith**  
 Нет проверки на отрицательные числа в calculateSqrt.
 
-- **Reinventing the Square Wheel**
+8. **Reinventing the Square Wheel**  
 Неэффективный метод возведения в степень с вложенными циклами.
 
-- **Copy and Paste**
+9. **Copy and Paste**  
 Повторяющийся код для операций 1–4.
 
-- **Stub (Заглушка)**
+10. **Stub (Заглушка)**  
 saveToDatabase сохраняет в файл вместо БД.
 
-- **Hard Code**
+11. **Hard Code**  
 Жестко прописан путь к файлу.
 
-- **Empty Catch Block**
+12. **Empty Catch Block**  
 Пустые catch, игнорирующие ошибки.
 
-- **Висящие концы**
+13. **Висящие концы**  
 Пустые методы интерфейса, которые не нужны.
