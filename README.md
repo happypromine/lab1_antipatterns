@@ -1,42 +1,42 @@
 # Antipatterns calculator
-Interface Soup
+- **Interface Soup**
 Интерфейс с кучей несвязанных методов, нарушающий ISP.
 
-God Object
+- **God Object**
 Класс Calculator делает всё: вычисления, ввод-вывод, работу с файлами.
 
-Magic Number
+- **Magic Number**
 Константа E без пояснений.
 
-Boat Anchor
+- **Boat Anchor**
 Неиспользуемый метод readFromFile, оставленный "на будущее".
 
-Cryptic Code
+- **Cryptic Code**
 Непонятные имена вроде o, l, u, fn.
 
-Spaghetti Code
+- **Spaghetti Code**
 Огромный switch для всех операций.
 
-Reinventing the Wheel
+- **Reinventing the Wheel**
 Свой метод корня вместо Math.sqrt().
 
-Blind Faith
+- **Blind Faith**
 Нет проверки на отрицательные числа в calculateSqrt.
 
-Reinventing the Square Wheel
+- **Reinventing the Square Wheel**
 Неэффективный метод возведения в степень с вложенными циклами.
 
-Copy and Paste
+- **Copy and Paste**
 Повторяющийся код для операций 1–4.
 
-Stub (Заглушка)
+- **Stub (Заглушка)**
 saveToDatabase сохраняет в файл вместо БД.
 
-Hard Code
+- **Hard Code**
 Жестко прописан путь к файлу.
 
-Empty Catch Block
+- **Empty Catch Block**
 Пустые catch, игнорирующие ошибки.
 
-Dangling Ends (Висящий конец)
+- **Висящие концы**
 Пустые методы интерфейса, которые не нужны.
